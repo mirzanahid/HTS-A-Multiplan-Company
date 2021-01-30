@@ -1,0 +1,1139 @@
+/*==================================================
+                common css start
+  ==================================================*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-fluid {
+    width: 1440px;
+}
+
+.title h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    color: #ffffff;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+/*==================================================
+                common css end
+  ==================================================*/
+/*==================================================
+                load modal css start
+  ==================================================*/
+  #loadmodal{
+      z-index: 999999;
+  }
+#loadmodal .title__heading {
+    font-size: 48px;
+    line-height: 59px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#loadmodal .modal-dialog {
+    max-width: 1021px !important;
+
+}
+
+#loadmodal .modal-dialog .modal-content {
+    background: #2A4D6F;
+    border-radius: 0;
+    z-index: 999;
+
+
+}
+
+#loadmodal .close {
+    outline: 0;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    opacity: 1;
+}
+
+#loadmodal .modal-dialog .modal-header {
+    border: 0 !important;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+#loadmodal .modal-dialog .modal-body {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 150px;
+}
+
+#loadmodal .modal-dialog .modal-body label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #C7EAFB;
+}
+
+#loadmodal .modal-dialog .modal-body input {
+    border-radius: 0;
+    width: 368px;
+    height: 54px;
+    border: 1px solid #C7EAFB;
+    box-sizing: border-box;
+    background: transparent;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #C7EAFB;
+
+
+}
+
+#loadmodal .modal-dialog .modal-body .button-formgroup {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#loadmodal .modal-dialog .modal-body .popup_btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #2B4C6E;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 65px rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    height: 54px;
+    width: 300px;
+    text-align: center;
+
+
+
+}
+
+/*==================================================
+                load modal css end
+  ==================================================*/
+
+
+/*==================================================
+                start modal css start
+  ==================================================*/
+  #exampleModal{
+      z-index: 99999;
+  }
+#exampleModal .title__heading {
+    font-size: 48px;
+    line-height: 59px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#exampleModal .modal-dialog {
+    max-width: 1021px !important;
+
+}
+
+#exampleModal .modal-dialog .modal-content {
+    background: #2A4D6F;
+    border-radius: 0;
+
+
+}
+
+#exampleModal .close {
+    outline: 0;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    opacity: 1;
+}
+
+#exampleModal .modal-dialog .modal-header {
+    border: 0 !important;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+#exampleModal .modal-dialog .modal-body {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+}
+
+#exampleModal .modal-dialog .modal-body label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #C7EAFB;
+}
+
+#exampleModal .modal-dialog .modal-body input {
+    border-radius: 0;
+    width: 368px;
+    height: 54px;
+    border: 1px solid #C7EAFB;
+    box-sizing: border-box;
+    background: transparent;
+    color: #ffffff;
+}
+
+#exampleModal .modal-dialog .modal-body .button-formgroup {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#exampleModal .modal-dialog .modal-body .startbtn {
+    display: flex;
+    justify-content: left;
+}
+
+#exampleModal .modal-dialog .modal-body .popup_btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #2B4C6E;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 65px rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    height: 54px;
+    width: 300px;
+    text-align: center;
+
+
+
+}
+
+
+.modal-scrollbar-measure {
+    overflow: hidden !Important;
+}
+
+
+
+
+
+
+/*==================================================
+                start modal css end
+  ==================================================*/
+
+
+
+/*==================================================
+                navbar css start
+  ==================================================*/
+nav {
+    padding-top: 20px;
+    position: absolute !important;
+    top: 0;
+    width: 100%;
+    transition: .4s;
+    z-index: 9999;
+   
+
+}
+
+nav ul {
+    margin-top: -190px;
+    z-index: 9999;
+
+
+}
+
+nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    color: #2B4C6E;
+    position: relative;
+    width: 175px;
+    margin-left: 30px;
+
+}
+
+nav ul li .nav--wd0 {
+    width: 72px;
+}
+
+nav ul li .nav--wd1 {
+    width: 170px;
+}
+
+nav ul li .nav--wd2 {
+    width: 100px;
+}
+
+nav ul li a::after {
+    width: 1px;
+    height: 105px;
+    background: #5B96B5;
+    position: absolute;
+    top: -46px;
+    left: -10px;
+    content: '';
+}
+
+nav ul li a:hover {
+    color: #2B4C6E;
+}
+
+nav ul li .nav--noline:after {
+    display: none;
+}
+
+.sticky {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%;
+    background: #FFFFFF;
+    z-index: 9999;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.sticky .logoimg {
+    width: 90px;
+    height: 90px;
+}
+
+.sticky ul {
+    margin-top: -20px;
+
+}
+
+/*==================================================
+                navbar css end
+  ==================================================*/
+
+/*==================================================
+                banner css start
+  ==================================================*/
+
+
+#banner-part h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    color: #2B4C6E;
+    width: 1260px;
+    padding-left: 300px;
+    padding-top: 150px;
+    text-transform: uppercase;
+}
+
+#banner-part .banner__img {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    height: 584px;
+    margin-top: 20px;
+}
+
+/*==================================================
+                banner css end
+  ==================================================*/
+/*==================================================
+                who is host css start
+  ==================================================*/
+
+
+
+#whois-part .col-lg-5 {
+    padding-right: 0 !important;
+
+}
+
+#whois-part .col-lg-7 {
+    padding-left: 0 !important;
+
+}
+
+#whois-part .title__heading {
+    width: 400px;
+    padding-top: 60px;
+    padding-left: 130px;
+}
+
+
+#whois-part .left {
+    background: #7FA2BD;
+    height: 249px;
+}
+#whois-part .left2 {
+    background: #7FA2BD;
+    height: 501px;
+}
+#whois-part .left .top {
+    height: 249px;
+
+}
+
+#whois-part .left2  .down {
+    height: 501px;
+
+}
+
+#whois-part .left2  .down img {
+    width: 100%;
+
+}
+
+#whois-part .right {
+
+    height: 249px;
+}
+#whois-part .right2 {
+
+    height: 453px;
+}
+#whois-part .right .top {
+    height: 249px;
+    padding-top: 85px;
+
+
+}
+
+#whois-part .right2 .down {
+    height: 453px;
+    background: #2B4C6E;
+    display: flex;
+    padding-left: 110px;
+    padding-top: 70px;
+    margin-top: 48px;
+}
+
+#whois-part .right .top p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #000000;
+    width: 667px;
+    margin: auto;
+
+}
+
+#whois-part .right2 .down .card {
+
+    width: 370px;
+    background: transparent;
+    border: 0;
+}
+
+#whois-part .right2 .down .card .photo {
+    width: 80px;
+    height: 70px;
+}
+
+#whois-part .right2 .down .card img {
+    width: 100%;
+    height: 100%;
+}
+
+#whois-part .right2 .down .card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#whois-part .right2 .down .card .top__p {
+    width: 250px;
+}
+
+#whois-part .right2 .down .card p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #ffffff;
+    width: 330px;
+}
+
+/*==================================================
+                who is host css end
+  ==================================================*/
+
+/*==================================================
+               Plan css start
+  ==================================================*/
+
+#plan-part {
+    background: url(../images/plan_bg.png) no-repeat center;
+    background-size: cover;
+    height: 965px;
+    padding-top: 80px;
+    padding-left: 130px;
+}
+
+
+#plan-part .title__heading {
+    color: #2B4C6E;
+    line-height: 60px;
+}
+
+/*==================================================
+               Plan css end
+  ==================================================*/
+
+
+/*==================================================
+               payment css start
+  ==================================================*/
+
+#payment-part {
+    background: #B0CA5F;
+    padding-top: 30px;
+
+}
+
+#payment-part .left {
+    padding-top: 30px;
+    padding-left: 80px;
+    margin-bottom: 30px;
+}
+
+#payment-part .left .title__heading {
+    width: 440px;
+}
+
+#payment-part .left .lightpra {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #ffffff;
+    width: 415px;
+    margin-top: 65px;
+}
+
+#payment-part .left .boldpra {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #ffffff;
+    width: 415px;
+    margin-top: 20px;
+}
+
+#payment-part .benifits {
+    display: flex;
+    background: #2B4C6E;
+    width: 600px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: auto;
+}
+
+#payment-part .benifits .text1 span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #B0CA5E;
+    margin-left: 30px;
+}
+
+#payment-part .benifits .text2 span {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #ffffff;
+    margin-left: 50px;
+    width: 100px;
+    margin-top: -20px;
+}
+#payment-part .photo img{
+    width: 100%;
+    height: 100%;
+}
+/*==================================================
+               payment css end
+  ==================================================*/
+/*==================================================
+               analysis css start
+  ==================================================*/
+
+
+#analysis-part .title__heading {
+    width: 570px;
+    line-height: 64px;
+    margin-bottom: 60px;
+}
+
+#analysis-part .col-lg-7 {
+    padding-right: 0 !important;
+
+}
+
+#analysis-part .col-lg-5 {
+    padding-left: 0 !important;
+
+}
+
+#analysis-part .left {
+    background: #5B96B5;
+    ;
+    height: 675px;
+    padding-left: 116px;
+    padding-top: 100px;
+
+}
+
+#analysis-part .right {
+    background: #E7E6E6;
+    padding-top: 50px;
+    height: 675px;
+
+
+}
+
+#analysis-part .left p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #ffffff;
+    width: 600px;
+}
+
+#analysis-part .left ul {
+    margin-top: 40px;
+}
+
+#analysis-part .left ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+#analysis-part .right img{
+    width: 100%;
+    height: 100%;
+}
+
+/*==================================================
+               analysis css end
+  ==================================================*/
+
+
+/*==================================================
+               step css start
+  ==================================================*/
+
+
+
+#step-part .title__heading {
+    margin-bottom: 80px;
+
+}
+
+#step-part .col-lg-7 {
+    padding-right: 0 !important;
+
+}
+
+#step-part .col-lg-5 {
+    padding-left: 0 !important;
+
+}
+
+#step-part .left {
+
+    background: url(../images/stepbg.png) no-repeat center;
+    background-size: cover;
+    height: 740px;
+
+
+}
+
+#step-part .right {
+    height: 740px;
+    background: #2B4C6E;
+    padding-top: 100px;
+    padding-left: 115px;
+    position: relative;
+    z-index: 1;
+}
+
+#step-part .right .whole .box {
+    display: flex;
+    margin-bottom: 60px;
+
+}
+
+#step-part .right .whole .box .icon {
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+#step-part .right .whole .box .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+#step-part .right .whole .box .texts p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #ffffff;
+    width: 310px;
+    text-transform: uppercase;
+
+}
+
+#step-part .right .whole .box .texts .mg {
+    margin-top: 20px;
+}
+
+/*==================================================
+               step css end
+  ==================================================*/
+
+/*==================================================
+               timeline css start
+  ==================================================*/
+
+#timeline-part {
+    background: #B0CA5F;
+
+    padding-top: 60px;
+    position: relative;
+}
+
+#timeline-part .shape02 {
+    position: absolute;
+    top: -34%;
+    right: 100px;
+
+}
+
+#timeline-part .title__heading {
+    width: 400px;
+    margin-bottom: 30px;
+
+}
+
+
+#timeline-part .main-box {
+
+    background: #2A4D6E;
+    height: 540px;
+    width: 1145px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+#timeline-part .main-box .sub-box {
+    width: 900px;
+    height: 440px;
+    background: #7F7F7F;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    position: relative;
+
+
+
+}
+
+#timeline-part .main-box .sub-box2 {
+    width: 653px;
+    height: 359px;
+    background: #7BA200;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    position: relative;
+
+
+}
+
+#timeline-part .main-box .sub-box3 {
+    width: 400px;
+    height: 285px;
+    background: #BBCD8C;
+    align-self: flex-end;
+    position: relative;
+
+
+}
+
+#timeline-part .main-box ul {
+    margin-left: 20px;
+}
+
+#timeline-part .main-box .margi {
+    margin-left: 35px;
+}
+
+#timeline-part .main-box ul .heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+
+}
+
+#timeline-part .main-box ul .heading--margin {
+    margin-right: -20px;
+}
+
+#timeline-part .main-box ul .heading--margin2 {
+    margin-right: 50px;
+}
+
+#timeline-part .main-box ul .heading--margin3 {
+    margin-right: 35px;
+}
+
+#timeline-part .main-box ul .heading--margin4 {
+    margin-right: 35px;
+}
+
+#timeline-part .main-box ul .sub_heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+#timeline-part .main-box .one .sub_heading {
+    width: 142px;
+}
+
+#timeline-part .main-box .two .sub_heading {
+    width: 175px;
+}
+
+#timeline-part .main-box .three .sub_heading {
+    width: 135px;
+}
+
+#timeline-part .main-box .four .sub_heading {
+    width: 180px;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 110px solid transparent;
+    border-bottom: 70px solid transparent;
+    position: absolute;
+    right: -100px;
+    top: -40px;
+    z-index: 999;
+}
+
+.triangle-01 {
+    border-left: 100px solid #2A4D6E;
+}
+
+.triangle-02 {
+    border-left: 100px solid #7F7F7F;
+}
+
+.triangle-03 {
+    border-left: 100px solid #7BA200;
+}
+
+.triangle-04 {
+    border-left: 100px solid#BBCD8C;
+}
+
+/*==================================================
+               timeline css end
+  ==================================================*/
+
+/*==================================================
+               why chose css start
+  ==================================================*/
+
+
+#why_chose-part {
+    background: url(../images/why-chosebg.png) no-repeat left;
+    background-size: contain;
+    padding-top: 80px;
+
+
+}
+
+
+#why_chose-part .title__heading {
+    color: #2B4C6E;
+
+    margin-bottom: 40px;
+
+}
+
+#why_chose-part .box {
+    background: #2B4C6E;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    margin-bottom: 30px;
+
+}
+
+#why_chose-part .box .photo {
+    width: 80px;
+    height: 80px;
+}
+
+#why_chose-part .box .photo img {
+    width: 100%;
+    height: 100%;
+}
+
+#why_chose-part .box .text {
+    margin-left: 20px;
+}
+
+#why_chose-part .box .text h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #B0CA5E;
+    margin-bottom: 15px;
+    width: 100px;
+}
+#why_chose-part .box .text .nowidth{
+    width: 280px;
+}
+#why_chose-part .box .text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #FFFFFF;
+    width: 210px;
+
+}
+#why_chose-part .box .text .prawidth{
+    width: 100px;
+}
+#why_chose-part .box2 {
+    background: #2B4C6E;
+
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+
+}
+
+#why_chose-part .box3 {
+    padding: 40px 0 !important;
+}
+
+#why_chose-part .box4 {
+    padding: 24px 0 !important;
+}
+
+#why_chose-part .box2 .top {
+    display: flex;
+    justify-content: center;
+}
+
+#why_chose-part .box2 .top .text {
+    margin-left: 20px;
+}
+#why_chose-part .box2 .top  .mgl{
+    margin-left: 15px;
+}
+#why_chose-part .box2 .top .text h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #B0CA5E;
+    margin-bottom: 15px;
+    width: 210px;
+}
+
+#why_chose-part .box2 .top .text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #FFFFFF;
+    width: 205px;
+
+}
+
+#why_chose-part .box2 .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#why_chose-part .box2 .bottom .card {
+    background: transparent;
+    border: 0;
+    width: 200px;
+
+    text-align: center;
+}
+
+
+#why_chose-part .box2 .bottom .card h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #ffffff;
+    margin-bottom: 5px;
+
+}
+
+#why_chose-part .box2 .bottom .card p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #FFFFFF;
+    width: 150px;
+    margin: auto;
+}
+
+#why_chose-part .button {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#why_chose-part .button .why_chose_link {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #ffffff;
+    background: #2B4C6E;
+    text-align: center;
+    border-radius: 0;
+    padding: 25px 200px;
+    box-shadow: 0px 4px 65px rgba(0, 0, 0, 0.25);
+}
+#why_chose-part .footer .logo{
+    width: 350px;
+    height: 150px;
+}
+#why_chose-part .footer .logo img{
+    width: 100%;
+    height: 100%;
+}
+#why_chose-part .footer .right {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#why_chose-part .footer .right .card {
+    margin-top: 50px;
+    background: transparent;
+    border: 0;
+}
+
+#why_chose-part .footer .right .card2 {
+    margin-right: 60px;
+}
+
+#why_chose-part .footer .right .card h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #465B71;
+    margin-bottom: 30px;
+
+}
+
+#why_chose-part .footer .right .card p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #969696;
+
+}
+
+
+
+
+
+
+
+
+
+/*==================================================
+               why chose css end
+  ==================================================*/
